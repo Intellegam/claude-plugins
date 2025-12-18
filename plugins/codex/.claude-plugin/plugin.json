@@ -1,6 +1,6 @@
 {
   "name": "codex",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "OpenAI Codex MCP integration for external AI agent collaboration. Enables brainstorming, plan validation, and code review.",
   "author": {
     "name": "Intellegam",
@@ -12,5 +12,6 @@
     "collaboration",
     "review",
     "external-agent"
-  ]
+  ],
+  "hooks": "./hooks/hooks.json"
 }
