@@ -1,6 +1,6 @@
 ---
 name: codex-usage
-description: Guidelines for collaborating with OpenAI Codex as an external AI agent. Use this skill when making complex decisions that benefit from a second perspective, validating architectural decisions or implementation plans, reviewing code after significant changes, or brainstorming approaches before committing to a direction. Do NOT use for simple tasks or time-sensitive operations.
+description: REQUIRED reading before using Codex MCP tools (codex, codex-reply, codex-review). Provides collaboration guidelines for working with OpenAI Codex as an external AI agent. Use when making complex decisions that benefit from a second perspective, validating architectural decisions or implementation plans, reviewing code after significant changes, or brainstorming approaches before committing to a direction.
 ---
 
 # Codex Collaboration Guidelines
