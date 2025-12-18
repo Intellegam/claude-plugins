@@ -12,6 +12,5 @@
     "collaboration",
     "review",
     "external-agent"
-  ],
-  "hooks": "./hooks/hooks.json"
+  ]
 }
