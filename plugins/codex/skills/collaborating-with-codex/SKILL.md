@@ -1,6 +1,6 @@
 ---
-name: codex-usage
-description: REQUIRED reading before using Codex MCP tools (codex, codex-reply, codex-review). Provides collaboration guidelines for working with OpenAI Codex as an external AI agent. Use when making complex decisions that benefit from a second perspective, validating architectural decisions or implementation plans, reviewing code after significant changes, or brainstorming approaches before committing to a direction.
+name: collaborating-with-codex
+description: Collaborates with OpenAI Codex as an external AI agent for second opinions on complex decisions. Provides guidelines for brainstorming, plan validation, and code review workflows. Use when making architectural decisions, validating implementation plans, reviewing code after significant changes, or consulting codex, codex-reply, or codex-review MCP tools.
 ---
 
 # Codex Collaboration Guidelines
