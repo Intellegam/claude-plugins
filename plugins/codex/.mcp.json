@@ -1,0 +1,10 @@
+{
+  "mcpServers": {
+    "codex-agent": {
+      "type": "stdio",
+      "command": "npx",
+      "args": ["-y", "github:Intellegam/codex-mcp"],
+      "env": {}
+    }
+  }
+}
