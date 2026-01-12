@@ -30,7 +30,7 @@ Use OpenAI Codex as a collaborative sub-agent for brainstorming, plan validation
 
 - **Form your own analysis first** to ensure independent perspectives—avoid anchoring bias
 - Prompt specifically with context (like any sub-agent)
-- Use read-only sandbox unless explicitly required otherwise
+- Sessions run in read-only sandbox mode
 - Use `codex-reply` for multi-turn discussions or reviews needing prior context
 - Synthesize conclusions—don't just relay raw Codex output
 - When developing plans (yourself or via Plan sub-agent), validate with Codex before presenting to user

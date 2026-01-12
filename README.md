@@ -14,7 +14,7 @@ OpenAI Codex collaboration MCP server for brainstorming, plan validation, and co
 
 **Includes:**
 - MCP server configuration (references `github:Intellegam/codex-mcp`)
-- `codex-usage` skill with collaboration guidelines
+- `collaborating-with-codex` skill with collaboration guidelines
 
 ## Installation
 
@@ -35,3 +35,18 @@ Add the marketplace to your project's `.claude/settings.json`:
   }
 }
 ```
+
+## Versioning
+
+When updating a plugin, bump the version in both places and keep them in sync:
+
+1. `plugins/<name>/.claude-plugin/plugin.json` - source of truth
+2. `.claude-plugin/marketplace.json` - for discovery/updates
+
+Use semantic versioning (MAJOR.MINOR.PATCH).
+
+## Documentation
+
+- [Create plugins](https://code.claude.com/docs/en/plugins.md)
+- [Plugins reference](https://code.claude.com/docs/en/plugins-reference.md)
+- [Plugin marketplaces](https://code.claude.com/docs/en/plugin-marketplaces.md)
