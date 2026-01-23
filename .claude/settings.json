@@ -1,0 +1,17 @@
+{
+  "cleanupPeriodDays": 60,
+  "attribution": {
+    "commit": "",
+    "pr": ""
+  },
+  "permissions": {
+    "allow": ["WebFetch", "WebSearch", "Skill"],
+    "deny": [],
+    "ask": []
+  },
+  "enableAllProjectMcpServers": true,
+  "enabledPlugins": {
+    "plugin-dev@claude-plugins-official": true
+  },
+  "extraKnownMarketplaces": {}
+}
