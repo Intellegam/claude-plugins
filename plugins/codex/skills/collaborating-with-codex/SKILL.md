@@ -1,6 +1,6 @@
 ---
 name: collaborating-with-codex
-description: Collaborates with OpenAI Codex as an external AI agent for second opinions on complex decisions. Provides guidelines for brainstorming, plan validation, and code review workflows. Use when making architectural decisions, validating implementation plans, reviewing code after significant changes, or consulting codex, codex-reply, or codex-review MCP tools.
+description: This skill should be used when working on architectural decisions, complex refactoring, system design, API redesign, or multi-component implementations. Also use when asked to "consult codex", "get a second opinion", "validate this plan", or "have codex review". Guides proactive collaboration with OpenAI Codex for brainstorming, plan validation, and code review.
 ---
 
 # Codex Collaboration Guidelines
@@ -11,7 +11,11 @@ Use OpenAI Codex as a collaborative sub-agent for brainstorming, plan validation
 
 - `codex` — Start new session (defaults to read-only sandbox)
 - `codex-reply` — Continue session with prior context
-- `codex-review` — Dedicated review mode (fresh session, specialized prompt)
+- `codex-review` — Dedicated review mode with four presets:
+  - `uncommitted` — Review staged/unstaged/untracked changes
+  - `base` — PR-style review against a base branch
+  - `commit` — Review a single commit
+  - `custom` — Custom review with your own instructions
 
 ## When to Use
 
