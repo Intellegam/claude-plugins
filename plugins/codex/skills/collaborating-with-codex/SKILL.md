@@ -11,11 +11,18 @@ Use OpenAI Codex as a collaborative sub-agent for brainstorming, plan validation
 
 - `codex` — Start new session (defaults to read-only sandbox)
 - `codex-reply` — Continue session with prior context
-- `codex-review` — Dedicated review mode with four presets:
-  - `uncommitted` — Review staged/unstaged/untracked changes
-  - `base` — PR-style review against a base branch
-  - `commit` — Review a single commit
-  - `custom` — Custom review with your own instructions
+- `codex-review` — Dedicated review mode (requires `mode` parameter)
+
+### codex-review modes and parameters
+
+| mode          | required params         | example                                             |
+| ------------- | ----------------------- | --------------------------------------------------- |
+| `uncommitted` | _(none)_                | `mode: "uncommitted"`                               |
+| `base`        | `base` (branch name)    | `mode: "base", base: "main"`                        |
+| `commit`      | `commit` (SHA)          | `mode: "commit", commit: "abc123"`                  |
+| `custom`      | `prompt` (instructions) | `mode: "custom", prompt: "Focus on error handling"` |
+
+All modes accept an optional `cwd` parameter for the repo root.
 
 ## When to Use
 
